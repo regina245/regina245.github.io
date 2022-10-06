@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lucky Kávézó - Blog</title>
+</head>
+<body>
+
+<header>
+    <!-- Menü-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/clover.svg" alt="logo">
+                Lucky</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kavefajtak.html">Kávéfajták</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">Blog</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+
+    </div>
+</header>
+   <div class="container">
+       <div class="row">
+           <h1 class="my-5">Lucky - Blog</h1>
+       </div>
+       <div class="row">
+         <div class="col-md-4">
+            <img src="img/reggel.png" alt="Reggeli hangulat" class="img-fluid blog-img">
+         </div>
+         <div class="col-md-8 blog-align">
+            <h2 class="blog-h2 pt-2">Reggeli ráhangolódás</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nesciunt sunt, quis harum excepturi assumenda in ad neque aspernatur inventore eum eos unde explicabo porro? Recusandae natus quia velit at!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui minima tenetur necessitatibus dolorum commodi, nam mollitia dolore distinctio odio fugiat doloribus velit aut modi totam porro laborum fuga molestiae aliquam.</p>
+            <p>Accusamus similique at eum tempora deleniti velit porro nesciunt vero itaque? Ut, placeat? Perspiciatis sit nam recusandae eos reiciendis aliquid provident corrupti doloremque molestiae praesentium ducimus debitis maiores, dicta corporis!</p>
+            <a href="cikkek/reggel.html">
+            <button type="button" class="btn btn-outline-success">Elolvasom</button>
+            </a>
+
+          </div>
+       </div>
+      <div class="row my-3">
+          <div class="col-md-8 blog-align">
+              <h2 class="blog-h2 pt-2">A 10 legismertebb kávézó Magyarországon</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nesciunt sunt, quis harum excepturi assumenda in ad neque aspernatur inventore eum eos unde explicabo porro? Recusandae natus quia velit at!</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui minima tenetur necessitatibus dolorum commodi, nam mollitia dolore distinctio odio fugiat doloribus velit aut modi totam porro laborum fuga molestiae aliquam.</p>
+              <p>Accusamus similique at eum tempora deleniti velit porro nesciunt vero itaque? Ut, placeat? Perspiciatis sit nam recusandae eos reiciendis aliquid provident corrupti doloremque molestiae praesentium ducimus debitis maiores, dicta corporis!</p>
+              <a href="cikkek/kavezo.html">
+              <button type="button" class="btn btn-outline-success">Elolvasom</button>
+              </a>
+            </div>
+            <div class="col-md-4">
+                <img src="img/kavezo.png" alt="Kávézó" class="img-fluid blog-img mt-3">
+             </div>
+      </div>
+
+
+
+
+
+   </div>
+
+<footer class="row mt-5 px-2 pt-2">
+<div class="col-sm-6 col-lg-4 offset-lg-1">
+<h2>Elérhetőség</h2>
+<ul>
+  <li><img src="img/letter.svg" alt="">6900 Makó, Posta utca 4-6.</li>
+  <li><img src="img/telephone.svg" alt="">06 (30) 111-1111</li>
+  <li><img src="img/email.svg" alt="">luckykavezo@gmail.com</li>
+</ul>
+</div>
+<div class="col-sm-6 col-lg-4 offset-lg-1">
+<h2>Feliratkozás hírlevélre</h2>
+<form action="">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
+    <button class="btn btn-success" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozás</button>
+  </div>
+</form>
+</div>
+
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <script>  
+      function feliratkozas(){
+        let email = document.getElementById('email').value;
+        if(email =="")
+        {
+          alert("Kérem, töltse ki a mezőt!");
+        }
+        else{
+          alert("Sikeresen feliratkozott a hírlevélre! Köszönjük szépen!");
+        }
+      }
+    </script>
+
+
+
+</body>
+</html>
