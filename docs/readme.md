@@ -6,7 +6,7 @@
 ## Hivatkozások
 1. Validálás: https://jigsaw.w3.org/css-validator/
 2. Képek: https://www.google.com/search?q=unsplash&rlz=1C1GCEA_enHU1023HU1023&oq=uns&aqs=chrome.1.69i57j0i131i433i512l2j46i433i512j0i512l6.3191j0j7&sourceid=chrome&ie=UTF-8
-3. Képkompresszió: https://imagecompressor.com/
+3. Képkompresszió: git co
 4. Képszerkesztés: GIMP
 5. Projektmenedzsment : Trello
 6. Tervezés(wireframe,design): Figma
